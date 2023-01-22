@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>where to go</title>
+    <script src="https://kit.fontawesome.com/5de6ab2288.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon/rocket-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html"><i class="fa-regular fa-moon"></i></a>
+        <a href="/about-me.html"><i class="fa-solid fa-user-astronaut"></i></a>
+        <a href="/watched.html"><i class="fa-solid fa-tv"></i></a>
+        <a class="active" href="/travel.html"><i class="fa-solid fa-rocket"></i></a>
+        <a href="/throwback.html"><i class="fa-solid fa-star"></i></i></a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="header">
+        <h1>memorable places i've been to</h1>
+    </div>
+
+    <section>
+        <ul>
+            <li class="places-list active" data-filter="all">All</li>
+            <li class="places-list" data-filter="siargao">Siargao</li>
+            <li class="places-list" data-filter="laguna">Laguna</li>
+            <li class="places-list"data-filter="morong">Morong, Bataan</li>
+            <li class="places-list"data-filter="pangasinan">Pangasinan (Hundred Islands)</li>
+            <li class="places-list"data-filter="manila">Intramuros, Manila</li>
+        </ul>
+
+        <div class="place-content">
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-1.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-2.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-3.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-4.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-5.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-6.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-7.jpg" alt=""></div>
+            <div class="place-content-img" data-item="siargao"><img src="/travel-images/siargao-8.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-1.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-2.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-3.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-4.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-5.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-6.jpg" alt=""></div>
+            <div class="place-content-img" data-item="laguna"><img src="/travel-images/laguna-7.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-2.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-4.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-6.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-7.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-9.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-10.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-11.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-12.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-13.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-14.jpg" alt=""></div>
+            <div class="place-content-img" data-item="morong"><img src="/travel-images/morong-15.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-1.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-2.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-3.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-7.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-8.jpg" alt=""></div>
+            <div class="place-content-img" data-item="pangasinan"><img src="/travel-images/hundred-island-9.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-1.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-2.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-3.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-4.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-5.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-6.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-7.jpg" alt=""></div>
+            <div class="place-content-img" data-item="manila"><img src="/travel-images/manila-8.jpg" alt=""></div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <h3>keep in touch,</h3>
+        <ul>
+            <li id="footer-fb"><a href="https://www.facebook.com/ajoy.pegarit"><i class="fa-brands fa-facebook"></i></a></li>
+            <li id="footer-ig"><a href="https://www.instagram.com/invites/contact/?i=ox7xd8j39yus&utm_content=10ex0j7"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <h4>&#9734 alona.jpeg</h4>
+    </footer>
+    
+
+    <script src="apps.js"></script>
+</body>
+</html>
